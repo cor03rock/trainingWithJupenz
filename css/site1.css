@@ -20,6 +20,10 @@ color : black;}
 	padding-left: 10px;
 	padding-bottom: 14px;
 }
+#header .container .logo a:hover {
+	opacity: 0.6;	
+	transition: opacity 0.2s linear;
+}
 
 #header nav ul#main-menu li {
 	margin-left: 35px;
@@ -33,6 +37,7 @@ color : black;}
 
 #header nav ul#main-menu li a:hover {
 	color:#ff4719;
+	transition: .2s linear;
 }
 
 #header nav ul#main-menu {
@@ -61,6 +66,7 @@ color : black;}
 }
 #header nav ul#help-menu li a:hover {
 	color:#ff4719;
+	transition: .2s linear;
 }
 
 .container {
@@ -136,6 +142,10 @@ color : black;}
 	color: #979797; 
 	font-weight: 100; 
 	font-size: 12px;
+}
+.wrapper-thumbnails > div > a:hover {
+	opacity: 0.6;
+	transition: opacity 0.2s linear;
 }
 
 #banner-container {
