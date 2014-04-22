@@ -100,10 +100,72 @@ color : black;}
 #main-body .container .slideshow {
 	height : 480px;
 	width : 940px;
+	position:relative;
 }
-#title-slideshow {
-	margin-top: 150px;
+#main-body .container .slideshow img{
+	position:absolute;
+}
+.opacityBG {
+	width:604px;
+	height:200px;
+	margin-left: 170px;
+	margin-top: 130px;
+	background-color: black;
+	opacity:0.3;
+	position:absolute;
+}
+
+.headTextslide{
+	width:600px;
+	height:198px;
+	margin-left: 170px;
+	margin-top: 130px;
+	border: 2px solid white;
+	position:absolute;
+}
+.headTextslide h1{
+	color:white;
+	font-family: oswald;
+	font-size: 50px;
 	text-align: center;
+	padding-top: 53px;
+	position:relative;
+}
+.headTextslide p {
+	position:relative;
+	color: white;
+	font-weight: 100;
+	text-align: center;
+	padding-top: 40px;
+}
+.exploreNow {
+	position:absolute;
+	width:160px;
+	height: 48px;
+	background-color: #ff4719;
+	margin-top: 303px;
+	margin-left: 390px;
+}
+a:hover .exploreNow  {
+	font-family: helvetica;
+	font-weight: 100;
+	background-color: black;
+	color: white;
+	margin-top: 300px;
+	margin-left: 390px;
+	/*margin-left: 27px;*/
+	text-align: center;
+	font-size: 12px;
+	transition : .3s linear;
+}
+.exploreNow p {
+	font-family: helvetica;
+	font-weight: 100;
+	color: white;
+	margin-top: 13px;
+	/*margin-left: 27px;*/
+	text-align: center;
+	font-size: 13px;
 }
 .wrapper-thumbnails {
 	padding-bottom: 30px;
@@ -179,6 +241,7 @@ color : black;}
 		height:38px;
 	width:270px; 
 	font-family: helvetica;
+	font-weight: bold;
 	transition : .3s linear;
 }
 
@@ -201,14 +264,14 @@ color : black;}
 }
 #links ul li a {
 	color: #979797;
-	
 }
+
 #links ul li a:hover {
 	color:black;
 	transition: .4s linear;
 }
 .payments {
-	padding-left: 100px;
+	padding-left: 130px;
 }
 .payments > h3{
 	font-family: oswald;
